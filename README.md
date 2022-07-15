@@ -1,4 +1,6 @@
-![](https://github.com/ojalmeida/doorkeeper-core/blob/main/logo.png?raw=true)
+<img src="https://github.com/ojalmeida/doorkeeper-core/blob/main/logo.png?raw=true" alt="drawing" width="400"/>
+<br>
+<br>
 
 **doorkeeper-psql-mapper** plugin can automatically map a postgresql database and expose it through doorkeeper API endpoint
 

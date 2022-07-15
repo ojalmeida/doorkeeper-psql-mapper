@@ -264,7 +264,7 @@ func updateByID(ctx context.Context, conn *sqlx.DB, b behavior, id string, param
 
 	for i := range knownParams {
 
-		if knownParams[i] != idColumnName {
+		if params[knownParams[i]] == idColumnName {
 
 			err = ErrIdentifierUpdate
 			return

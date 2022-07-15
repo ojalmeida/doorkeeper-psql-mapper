@@ -2,7 +2,7 @@
 <br>
 <br>
 
-**doorkeeper-psql-mapper** plugin can automatically map a postgresql database and expose it through doorkeeper API endpoint
+**doorkeeper-psql-mapper** plugin can automatically map a postgresql database and expose it through [doorkeeper](https://github.com/ojalmeida/doorkeeper-core) API endpoint
 
 ## Getting Started
 

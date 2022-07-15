@@ -72,7 +72,7 @@ func (pm PsqlMapper) Name() string {
 	return "psql-mapper"
 }
 
-func (pm *PsqlMapper) ScaffoldDB() (err error) {
+func (pm *PsqlMapper) MapDB() (err error) {
 
 	err, tables := getTables(pm.conn)
 
